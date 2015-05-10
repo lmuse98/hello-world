@@ -1,0 +1,19 @@
+// ed-hatrick-smith.com
+// This site follows the SMACCS methodology for modular CSS.
+// Go to https://smacss.com/ for further details. 
+
+@import 'modules/fonts'; // Note: font url's need to be imported before selectors
+
+// Base
+
+// Theme
+@import 'theme/variables';
+
+// Libraries
+@import 'libs/normalize.3.0.2';
+@import 'libs/mixins';
+
+// Modules
+
+// Layout
+@import 'layout/index';

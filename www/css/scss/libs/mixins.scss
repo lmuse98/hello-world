@@ -1,0 +1,12 @@
+
+@mixin primary-font($weight) {
+    font-family: 'Quattrocento', serif;
+    font-weight: $weight;
+    color: $heading-colour
+}
+
+@mixin secondary-font($weight) {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: $weight;
+    color: $type-color;
+}

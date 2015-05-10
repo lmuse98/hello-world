@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    background-color: $site-bg;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @include primary-font(700);
+}
