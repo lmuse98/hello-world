@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import styles from './App.module.css';
 import Header from '../Header/Header';
-import Sidebar from '../Sidebar/Sidebar';
-import Main from '../Main/Main';
 
 class App extends Component {
   constructor(props) {
@@ -36,10 +34,7 @@ class App extends Component {
     return (
       <div className={styles.container}>
         <Header />
-        <div className={styles.containerFlex}>
-          <Sidebar />
-          <Main cards={this.state.cards} />
-        </div>
+        <p>Konzultacije 27.3.</p>
       </div>
     );
   }
